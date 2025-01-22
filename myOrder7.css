@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(253, 252, 250);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.order-cont {
+  min-height: 50vh;
+}
+
+.order-cont h1 {
+  padding: 30px 0 0 30px;
+}
+
+#order-table {
+  padding: 20px;
+  margin: 40px;
+}
+
+th {
+  font-size: 20px !important;
+  font-weight: bold !important;
+}
+
+tr,
+th,
+td {
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  font-weight: 500;
+  padding: 15px 20px;
+  margin: 5px;
+  box-shadow: -1px -1px 10px 0 rgb(248, 248, 248);
+  text-align: left;
+  /* border: 1px solid black; */
+  border-collapse: collapse;
+  border-spacing: 2px;
+  border-radius: 10px;
+}
+
+#order-table tr:nth-child(even) {
+  background-color: rgb(255, 250, 206);
+}
+
+#order-table tr:nth-child(odd) {
+  background-color: rgb(255, 255, 255);
+}
+
+#order-table th {
+  color: rgb(37, 37, 37);
+  background-color: rgb(255, 246, 163);
+}
+
+#order-table tr:last-child {
+  background-color: white !important;
+}
+
+.cancel-btn {
+  background: transparent;
+  padding: 10px;
+  border: none;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  font-weight: 500;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+}
+
+.sec-view {
+  padding: 0;
+}

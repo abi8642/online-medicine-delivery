@@ -1,0 +1,178 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background: rgb(253, 252, 250);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+input {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+button {
+  border: none;
+  outline: none;
+  background: none;
+}
+.cont {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 900px;
+  height: 550px;
+  background: rgb(252, 252, 200);
+  box-shadow: 1px 1px 20px 2px rgb(201, 200, 200);
+}
+.form {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 100%;
+  -webkit-transition: -webkit-transform 1.2s ease-in-out;
+  transition: -webkit-transform 1.2s ease-in-out;
+  transition: transform 1.2s ease-in-out;
+  transition: transform 1.2s ease-in-out, -webkit-transform 1.2s ease-in-out;
+}
+.form h2 {
+  margin: 6px 30px;
+  font-size: 2rem;
+}
+.form #login-small {
+  font-size: 1rem;
+  margin: 0 0 40px 30px;
+}
+label {
+  display: block;
+  width: 250px;
+  margin: 25px auto;
+  text-align: center;
+}
+label span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #5d6a7c;
+  text-transform: uppercase;
+}
+input {
+  display: block;
+  margin-top: 5px;
+  width: 100%;
+  font-size: 15px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid rgba(109, 93, 93, 0.4);
+  text-align: center;
+}
+label .error {
+  color: crimson;
+  font-size: 11px;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  width: 260px;
+  height: 40px;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+.submit {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-weight: 500;
+  background: -webkit-linear-gradient(left, #7579ff, #b224ef);
+}
+.submit:hover {
+  background: -webkit-linear-gradient(left, #b224ef, #7579ff);
+}
+.signup {
+  margin: 30px;
+  text-align: center;
+  font-size: 18px;
+  word-spacing: 2px;
+  color: black;
+}
+.signup a {
+  color: rgb(173, 33, 127);
+  text-decoration: none;
+  padding: 0px 5px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.signup a:hover {
+  text-decoration: underline;
+}
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 10vh; */
+}
+.link a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  width: 55px;
+  background-color: #f5f6fa;
+  border-radius: 50px;
+  margin: 10px;
+  box-shadow: 1px 4px 10px 1px #cdcbd6;
+}
+.link a i {
+  color: rgb(0, 102, 255);
+  transition: all 0.2s linear;
+}
+.link a:hover {
+  box-shadow: 1px 4px 5px 5px #cdcbd6;
+}
+.link a:hover i {
+  transform: scale(1.1);
+}
+.link a:visited i {
+  color: rgb(0, 102, 255);
+}
+.sub-cont {
+  position: absolute;
+  left: 500px;
+  top: 0;
+  width: 400px;
+  height: 100%;
+}
+.sub-cont-text {
+  position: absolute;
+  top: 220px;
+  padding: 0 15px;
+  text-align: center;
+  color: rgb(44, 44, 44);
+}
+.sub-cont-text h2 {
+  color: #ff5e00;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.sub-cont-text p {
+  color: #7e5944;
+  font-size: 22px;
+  line-height: 30px;
+}
+.sign-in {
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}

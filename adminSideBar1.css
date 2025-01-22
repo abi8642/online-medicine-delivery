@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.admin-nav {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(59, 59, 59);
+  display: flex;
+}
+.admin-nav h3 {
+  font-size: 1.6rem;
+  color: rgb(71, 71, 255);
+  padding: 10px 50px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.admin-nav .admin-list {
+  padding: 0 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-direction: row;
+}
+.admin-nav ul li {
+  list-style: none;
+  padding: 10px;
+  margin: 5px 10px;
+}
+.admin-nav ul li a {
+  text-decoration: none;
+  color: rgb(214, 214, 214);
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  transition: all 0.2s ease-in-out;
+}
+.admin-nav ul li a:hover {
+  color: white;
+}

@@ -1,0 +1,236 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: rgb(255, 251, 243);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.back {
+  width: 120px;
+  margin: 20px 40px;
+  text-align: center;
+  padding: 6px;
+  background-color: rgb(255, 85, 99);
+  border-radius: 5px;
+  transition: all 0.17s ease-in-out;
+}
+
+.back:hover {
+  box-shadow: 1px 0.5px 2px 1px gray;
+}
+
+.back a {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+input {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+button {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.cont {
+  position: absolute;
+  left: 55%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 650px;
+}
+
+.address {
+  margin-top: 170px;
+  width: 400px;
+  padding: 20px 10px;
+}
+
+.address-top {
+  width: 100%;
+  padding: 20px 10px;
+  background-color: rgb(255, 255, 195);
+  box-shadow: 1px 1px 8px 1px rgb(201, 200, 200);
+}
+
+.address-top h3 {
+  margin-bottom: 8px;
+  padding: 8px;
+  border-bottom: 2px solid rgb(27, 27, 27);
+}
+
+.address-top div {
+  color: rgb(78, 78, 78);
+  font-weight: 500;
+  font-size: 15px;
+  padding: 2px 20px;
+}
+
+.address-top div span {
+  color: rgb(78, 78, 78);
+  font-weight: 500;
+  font-size: 15px;
+  padding: 2px;
+}
+
+.form {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 90%;
+  -webkit-transition: -webkit-transform 1.2s ease-in-out;
+  transition: -webkit-transform 1.2s ease-in-out;
+  transition: transform 1.2s ease-in-out;
+  transition: transform 1.2s ease-in-out, -webkit-transform 1.2s ease-in-out;
+}
+
+h2 {
+  margin: 6px 60px 25px 60px;
+  font-size: 1.7rem;
+}
+
+label {
+  display: block;
+  width: 350px;
+  margin: 25px auto;
+  text-align: center;
+}
+
+label span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #5d6a7c;
+}
+
+input {
+  display: block;
+  margin-top: 5px;
+  width: 100%;
+  font-size: 15px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid rgba(109, 93, 93, 0.4);
+  text-align: center;
+}
+
+label .error {
+  color: crimson;
+  font-size: 11px;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  width: 260px;
+  height: 40px;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-weight: 500;
+  background: -webkit-linear-gradient(left, #7579ff, #b224ef);
+}
+
+.submit:hover {
+  background: -webkit-linear-gradient(left, #b224ef, #7579ff);
+}
+
+.sub-cont {
+  position: absolute;
+  left: 600px;
+  top: 0;
+  width: 550px;
+  height: 100%;
+}
+
+.sign-in {
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+
+.cart-price {
+  margin: 34% 30px;
+}
+
+.cart-price-box {
+  padding: 18px;
+  display: flex;
+  background-color: rgb(255, 255, 195);
+  box-shadow: 1px 1px 8px 1px rgb(201, 200, 200);
+}
+
+.right-cart-price-box {
+  width: 100%;
+}
+
+.right-cart-price-box h3 {
+  display: inline;
+  padding: 0 0 10px 0;
+}
+
+#top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.calculate {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(95, 94, 94);
+  border-bottom: 0.7px solid rgb(194, 194, 194);
+}
+
+.total {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(31, 31, 31);
+}
+
+.address-buttom {
+  width: 382px;
+}
+
+.address-buttom .order-btn {
+  outline: none;
+  width: 100%;
+  background-color: rgb(255, 85, 99);
+  color: white;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 15px 10px;
+  font-size: 22px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+
+.address-buttom .order-btn a {
+  color: white;
+  text-decoration: none;
+}

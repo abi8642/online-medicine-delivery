@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(253, 252, 250);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.single-main {
+  width: 100%;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.single-wrapped {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.med-img {
+  width: 20%;
+  padding: 20px;
+}
+
+.med-img img {
+  height: 200px;
+  width: 200px;
+}
+
+.med-desc {
+  width: 50%;
+  padding: 40px 50px;
+}
+
+.tile {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 0.7px;
+  padding: 5px 0;
+}
+
+.company {
+  font-weight: 500;
+  letter-spacing: 0.7px;
+  padding: 5px 0;
+  font-size: 17px;
+  color: rgb(255, 81, 0);
+}
+
+.des {
+  color: rgb(61, 61, 61);
+  font-weight: 500;
+  font-size: 20px;
+  padding: 25px 0 5px 0;
+  letter-spacing: 0.7px;
+}
+
+.desc {
+  color: rgb(100, 100, 100);
+  font-size: 15px;
+  font-weight: 500;
+  padding: 5px 0;
+  letter-spacing: 0.7px;
+}
+
+.med-price {
+  color: blanchedalmond;
+  width: 25%;
+  padding: 15px;
+  background-color: rgb(255, 255, 239);
+  border-radius: 10px;
+  box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.3);
+}
+
+.rate {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.graan {
+  font-weight: 500;
+  padding-left: 10px;
+  color: rgb(0, 179, 0);
+  font-size: 20px;
+}
+
+.pack {
+  padding: 30px 0 0 10px;
+  font-size: 18px;
+  color: rgb(65, 65, 65);
+  font-weight: 500;
+}
+
+.add-btn {
+  color: white;
+  margin: 40px 15px 10px 15px;
+  padding: 10px 62px;
+  font-size: 19px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  letter-spacing: 0.7px;
+  background-color: rgb(255, 85, 99);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.add-btn:hover {
+  color: rgb(235, 235, 235);
+}

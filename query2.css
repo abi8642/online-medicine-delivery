@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(253, 252, 250);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.main_q_search {
+  min-height: 50vh;
+}
+
+.search {
+  width: 600px;
+  margin: 40px auto;
+  padding: 20px 30px;
+  background-color: rgb(248, 255, 219);
+  box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  color: rgb(43, 43, 43);
+  font-size: 1.5rem;
+  padding: 20px 10px;
+}
+
+h1 em {
+  font-size: 1.8rem;
+}
+
+a {
+  font-weight: 500;
+  font-size: 19px;
+  text-decoration: none;
+  color: rgb(59, 59, 59);
+}
+
+a div {
+  padding: 20px 20px 10px 20px;
+  border-bottom: 1px solid rgb(104, 104, 104);
+  transition: all 0.2s ease-in-out;
+}
+
+a:last-child div {
+  border: none;
+}
+
+a div:hover {
+  background-color: rgb(247, 255, 185);
+}
+
+.error {
+  padding: 40px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(43, 43, 43);
+}
